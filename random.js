@@ -1,5 +1,5 @@
-const PATH_TO_SPRITES = '/Random-Pokemon-Generator/sprites/png/normal/';
-const PATH_TO_SHINY_SPRITES = '/Random-Pokemon-Generator/sprites/png/shiny/';
+const PATH_TO_SPRITES = '/PokemonRentalRando/sprites/png/normal/';
+const PATH_TO_SHINY_SPRITES = '/PokemonRentalRando/sprites/png/shiny/';
 const SPRITE_EXTENTION = '.png';
 
 /** Called when the Generate button is clicked. */
