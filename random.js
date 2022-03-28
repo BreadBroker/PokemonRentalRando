@@ -223,7 +223,7 @@ function htmlifyPokemon(pokemon, options, ii) {
     var out = ""
     if (ii % 3 == 0)
         out += '<div class="row">'
-    out += '<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">'
+    out += '<div class="col-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">'
     var shiny = Math.floor(Math.random() * 65536) < 16;
 
     var title = pokemon.name;
@@ -253,7 +253,7 @@ function htmlifyPokemon(pokemon, options, ii) {
         out += '<li class="stat">' + '<b>Atk:</b>' + pokemon.attack + '</li>'
         out += '<li class="stat">' + '<b>Def:</b>' + pokemon.defense + '</li>'
         if ('special' in pokemon)
-            out += '<li class="stat">' + '<b>Sp:</b>' + pokemon.special + '</li>'
+            out += '<li class="stat">' + '<b>Spc:</b>' + pokemon.special + '</li>'
         else {
             out += '<li class="stat">' + '<b>Sp.Atk:</b>' + pokemon.special_attack + '</li>'
             out += '<li class="stat">' + '<b>Sp.Atk:</b>' + pokemon.special_defense + '</li>'
